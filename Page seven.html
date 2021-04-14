@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>page seven</title>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<style type="text/css">
+
+body{
+   background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url('https://imgur.com/Nmgy6QU.jpg');
+  
+  position:relative;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+.verify{
+  display:flex;
+    position:relative;
+  margin: 3px 10px;
+}
+.topic{
+  text-align:center;
+ 
+  
+}
+.fas{
+  position:absolute;
+  bottom:30%;
+  right:0;
+}
+#partitioned {
+  padding-left: 15px;
+  letter-spacing: 42px;
+  border: 0;
+  background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255,) 0%);
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x:32px;
+  width: 220px;
+}
+#partitioned:focus{
+  outline:none;
+}
+
+.main{
+  width:60%;
+  
+  border: 1px solid gray;
+  text-align:center;
+  background-color: #fff;
+ color:blue;
+   position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -100px;
+      margin-left: -100px;
+  border-radius: 10px;
+  
+}
+.code{
+  line-height:3;
+} 
+
+
+#mySidenav a {
+  position: fixed;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+}
+
+#mySidenav a:hover {
+  left: -60px;
+}
+
+
+
+#left {
+  top: 400px;
+  background-color: #555;
+  border-radius: 50%;
+}
+   
+
+
+#mySidenavb a {
+  position: fixed;
+  right: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+}
+
+#mySidenavb a:hover {
+  right: -60px;
+}
+
+
+
+#right {
+  top: 400px;
+  background-color: #555;
+  border-radius: 50%;
+}
+       
+         
+
+
+
+
+
+
+
+
+@media screen and (min-width:650px){
+  .main{
+    width:30%;
+  }
+}
+
+@media screen and (max-width:500px){
+  body{
+    zoom: 50%;
+  }
+}
+@media screen and (max-width: 350px){
+  body{
+    zoom: 30%;
+  }
+}
+
+
+</style>
+
+
+</head>
+<body>
+<section class="main">
+  <div class="verify">
+    <p class="topic" style="font-weight: 700; color:black;font-size:24px">Verify your number</p>
+    <i class='fas fa-times'></i>
+  </div>
+  <hr>
+  <div class="code">
+    <p style="color:gray;">Please enter verification code sent via sms to 
+      +256 ...........</p>
+      <input id="partitioned" type="text" placeholder="0000" maxlength="4">
+  </div>
+  </section>
+  
+  <div id="mySidenav" class="sidenav">
+  
+  <a href="https://jsbin.com/yuqesim" id="left"><i class='fas fa-angle-left' style='font-size:48px;color:white; margin-right:40%;margin-top: 30%'></i></a>
+</div>  
+        
+    
+<div id="mySidenavb" class="sidenavb">
+  
+  <a href="https://jsbin.com/rexosov" id="right"><i class='fas fa-angle-right' style='font-size:48px;color:white; margin-right:50%;margin-top: 30%'></i></a>
+</div>  
+</body>
+</html>

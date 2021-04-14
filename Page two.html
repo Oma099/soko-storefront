@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="[page 2]">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Page Two</title>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+  
+body{
+  background-color:white;
+  font-family: garamond;
+  flex-flow: nowrap;
+  width: 100%;
+  zoom:70%;
+   
+}
+header{
+   position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  padding-left: 5%;
+  background-color:blue;
+   color:white;
+}
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+   margin-top:1cm;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+  
+}
+
+/* Float the link section to the right */
+.navend {
+  float: right;
+  
+  
+  
+  
+}
+
+.topic{
+  font-size: 24px;
+  margin-left:2cm;
+}
+.add, .buy{
+  padding: 5px 25px;
+  width: 4cm;
+  height:1cm;
+  margin-top: 2cm;
+  margin-left: 1cm;
+  background-color: white;
+  border-color: #588EEE;
+  border-width: 1px;
+  color: #588eee;
+  border-radius: 4px;
+  font-weight: 750;
+  
+}
+.buy{
+  background-color:yellow;
+}
+.buttons{
+  display:flex;
+}
+
+.main {
+  display:flex;
+  font-size:20px;
+  flex-wrap: nowrap;
+}
+
+.related li{
+ list-style-type:none;
+ 
+}
+.related img{
+  width: 2.5cm;
+  height:3cm;
+  border-radius: 10px;
+  margin:10px;
+  
+}
+.related ul{
+   display: grid;
+   grid-template-columns: repeat(10,minmax(120px, 1fr));
+}
+
+.blueband{
+  display: flex;
+  
+  width:100%;
+ 
+  text-align: center;
+}
+.delivery, .secure,.support{
+  width: 100%;
+  text-align:center;
+  background-color:blue;
+  padding:0.5cm;
+ 
+}
+.blueband p{
+  margin-left: 50%;
+  color: white;
+  font-weight: 600;
+}
+.whatsapp{
+
+  display:inline-flex;
+  background-color:#5ECB41;
+  font-size:18px;
+  margin-bottom: 2cm;
+  color:white;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.store{
+  text-align: center;
+  color: gray;
+}
+.footer div{
+    border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+    font-weight: 800;
+  color: gray;
+  margin-right: 1cm;
+  margin-top: 2cm;
+ 
+  
+ 
+  }
+
+.footer{
+  display:flex;
+  position: fixed;
+  Bottom: 0;
+}
+
+
+
+
+@media screen and (max-width:500px){
+  body{
+    zoom: 50%;
+  }
+}
+@media screen and (max-width: 350px){
+  body{
+    zoom: 30%;
+  }
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+}
+
+#mySidenav a:hover {
+  left: -60px;
+}
+
+
+
+#left {
+  top: 500px;
+  background-color: #555;
+  border-radius: 50%;
+}
+   
+
+
+#mySidenavb a {
+  position: fixed;
+  right: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+}
+
+#mySidenavb a:hover {
+  right: -60px;
+}
+
+
+
+#right {
+  top: 500px;
+  background-color: #555;
+  border-radius: 50%;
+}
+       
+
+
+</style>
+
+
+</head>
+
+<body>
+
+  <header>
+    <p>Store Made With SOKO</p> 
+  </header>
+  
+  <nav class="header">
+  
+    <div class="shop">
+    <a href="#home"><strong style="color:black;text-align:left"><i class="fas fa-store" style='font-size:30px; color: gray'></i>Target</strong> </br>Independence Layout, Enugu State</a>
+     </div>
+  <div class="navend">
+    <a href="https://output.jsbin.com/fusifik"><i class='fas fa-shopping-cart' style='font-size:28px;color:gray'></i><sup style="background-color:red;font-size:15px;padding:1.5px; border-radius:20px;color:black">2</sup>Cart</a>
+    <a href="#about"><i class='fas fa-user-alt' style='font-size:28px;color:gray'></i>Account</a>
+  </div>
+  
+  
+  </nav>
+
+<div class="topic">
+  <a href="https://output.jsbin.com/bucewob"><i class='fas fa-angle-left' style='margin-right:15px;color: gray'></i></a><strong> Furniture</strong>
+</div>
+
+<hr>
+
+<main>
+  <article class="main">
+    
+    <div>
+       <img src="https://imgur.com/d7BPwom.jpg" alt="furniture" style="font-size:80px;border-radius: 10px;margin-right:1cm">
+    </div>
+    <div>
+    <div>
+      <p><h2>Norbury Scandinavian Wood Leg Ottoman</h2></p>
+      Sold as a piece, Wooden Upholstered Ottoman lends a laid-back appeal to your indoor space.
+      comes with soft padding for extra comfort nd suppor. solid wooden and metal frame ensures durable, long-lasting use. 
+      Great as a footrest or extra seat when entertaining guests.
+    
+      <div class="price" style="display:flex">
+      <p style="margin-right:1cm"> N8 000</p>
+      <p style="border:1px solid;text-align:center;width: 1cm; border-radius: 5px; background-color:red;color:white"> -20% </p>
+    </div>
+  <sup><strike>N10 000</strike></sup>
+    </div>
+    
+    <div class='buttons'>
+      <button class ="add" type="submit">Add to bag</button>
+      <button class="buy" type="submit">Buy Now</button>
+  </div>
+    </div>
+  
+    </article>
+  
+  
+  <article class="related">
+    <h3 style="color:gray;margin-top:15%">RELATED PRODUCTS</h3>
+    <ul>
+      <li><img src="https://imgur.com/0Y5zh8e.jpg">
+        <p>Holiday Print Flannel Sheet Set...</p></li>
+      
+        <li><img src="https://imgur.com/d7BPwom.jpg">
+        <p>Norbury Scandinavian...</p></li>
+      
+      <li><img src="https://imgur.com/whpWmvi.jpg">
+        <p>50" x 70" Jersey Weighted Throw...</p></li>
+      
+        <li><img src="https://imgur.com/xUE8ZAz.jpg">
+        <p>Flannel Herringbone...</p></li>
+      <li><img src="https://imgur.com/08Prv7o.jpg">
+        <p>Heavyweight Linen Blend Quilt...</p></li>
+   
+            </ul>
+           
+  <section>
+    <div class="blueband">
+    <div class="delivery">
+       <i class='fas fa-truck' style="font-size: 48px; color: #F2FA3E;margin-left:3cm"></i>
+    <p> Fast Delivery</p>
+    </div>
+    <div class ="secure">
+      <i class='fas fa-user-shield' style='font-size:48px;color:#F2FA3E; margin-left:3cm'></i>
+    <p>Buyer Protection</p>
+    </div>
+    <div class="support">
+      <i class='fas fa-user-clock' style='font-size:48px;color:#F2FA3E;margin-left:3cm'></i>
+    <p>Customer Support</p>
+    </div>
+  </div>
+  
+  <div class="store">
+    <p>STORE DETAILS</p>
+    <p><h3>Target</h3></p>
+    <p>Independence Layout, Enugu State</p>
+    <div class="whatsapp">
+    <i class='fab fa-whatsapp' style="margin-right:20px">
+    Chat with us</i>
+    </div>
+  </div>
+      </section>
+<footer>
+  <div class="footer">
+    <div>
+      Menu
+    </div>
+    <div>
+   <i class="fa fa-code" style="margin-right:5px;"></i> Handoff
+    </div>
+    <div>
+      <i class='fas fa-comment' style='color:gray;margin-right:5px'></i> 13 Comments
+    </div>
+</div>
+    </footer>
+  
+      
+<div id="mySidenav" class="sidenav">
+  
+  <a href="https://jsbin.com/bucewob" id="left"><i class='fas fa-angle-left' style='font-size:48px;color:white; margin-left:50%;margin-top: 30%'></i></a>
+</div>  
+        
+    
+<div id="mySidenavb" class="sidenavb">
+  
+  <a href="https://jsbin.com/fusifik" id="right"><i class='fas fa-angle-right' style='font-size:48px;color:white; margin-left:30%;margin-top: 30%'></i></a>
+</div>  
+  
+</body>
+</html>

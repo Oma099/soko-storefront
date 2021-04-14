@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Page Ten</title>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+header{
+   position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  padding-left: 5%;
+  background-color:blue;
+   color:white;
+}
+
+body{
+  background-color:white;
+
+}
+ .header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+   margin-top:1cm;
+   margin-bottom:-1cm;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: lightblue;
+  color: white;
+  
+}
+
+/* Float the link section to the right */
+.navend {
+  float: right;
+}
+  
+  
+ 
+.log{
+ float:right;
+  font-weight: 600;
+  text-align:center;
+  margin-top:-1.2cm;
+  background-color:white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border:2px solid gray;
+}
+section{
+  overflow:hidden;
+}
+section div{
+  margin-top:-0.5;
+}
+.number{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.left{
+
+  margin-right: 30%;
+  width: 100%;
+  position:absolute;
+  left: 10%;
+  
+ 
+}
+
+.address{
+  margin-right: 30%;
+  margin-top:0;
+
+}
+
+.new{
+  text-align: center;
+  color: #6889c8;
+  font-weight: 700;
+ 
+  
+}
+
+.center > div{
+  border: 1px solid #C4CDC4;
+  font-size: 12px;
+  padding: 5px 5px;
+  border-radius: 7px;
+  height: 150px;
+  width: 150px; 
+  margin-right: 35px;
+  
+}
+
+.center {
+  display: flex;
+  padding: 30px;
+  position:absolute;
+  left:40%;
+  border-left: 1px solid gray;
+  height: 340px;
+}
+.edit{
+  display:flex;
+}
+main{
+  display: flex;
+  position:relative;
+  border: 1px solid gray;
+  height: 400px;
+  width:1000px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+
+section{
+  background-color: white;
+  opacity: 0.4;
+position:fixed}
+
+
+ form .head{
+  text-align:center;
+}
+
+form{
+  
+  text-align:center;
+  width:600px;
+  position: absolute;
+  top:35%;
+  left:25%;
+  background-color:white;
+  padding: 15px;
+  height: 600px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  
+}
+input{
+  padding: 10px;
+  width: 500px;
+  margin:15px;
+  border-radius: 5px;
+  border:0.2px solid gray;
+  
+  
+}
+label{
+  float:left;
+  color:gray;
+
+}
+input:focus{
+  outline:none;
+}
+
+@media screen and (max-width: 800px){
+  body{
+    zoom: 50%
+  }
+}
+
+@media screen and (max-width:500px){
+  body{
+    zoom: 50%;
+  }
+}
+@media screen and (max-width: 350px){
+  body{
+    zoom: 30%;
+  }
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+}
+
+#mySidenav a:hover {
+  left: -60px;
+}
+
+
+
+#left {
+  top: 400px;
+  background-color: #555;
+  border-radius: 50%;
+}
+   
+
+
+#mySidenavb a {
+  position: fixed;
+  right: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+}
+
+#mySidenavb a:hover {
+  right: -60px;
+}
+
+
+
+#right {
+  top: 400px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<section>
+   <header>
+    <p>Store Made With SOKO</p> 
+  </header>
+  
+   <nav class="header">
+  
+    <div class="shop">
+    <a href="#home"><strong style="color:black;text-align:left"><i class="fas fa-store" style='font-size:30px; color: gray'></i>Target</strong> </br>Independence Layout, Enugu State</a>
+     </div>
+  <div class="navend">
+    <a href="https://output.jsbin.com/fusifik"><i class='fas fa-shopping-cart' style='font-size:28px;color:gray'></i><sup style="background-color:red;font-size:15px;padding:1.5px; border-radius:20px;color:black">2</sup>Cart</a>
+    <a href="#about" class="active"><i class='fas fa-user-alt' style='font-size:28px;color:gray'></i>Account</a>
+  </div>
+  </nav>
+  <section>
+  <div class="number">
+    <p> +2348108349755</p>
+    </div>
+    <div>
+    <button type="submit" class="log" style="margin-right:1cm">Log Out</button>
+   </div>
+    </section>
+<hr style="margin-bottom:0">
+  
+<main>
+  
+  <article class="left">
+    <p><i class='far fa-list-alt' style="margin-right:15px"></i> My Order</p>
+    <p class ="active"><i class='fas fa-map-marker-alt' style="margin-right:15px;color:blue"></i> <h style="color:blue">My Addresses</h></p>
+  </article>
+  
+  <article class="center">
+      
+     <div class="address">
+       <p style="font-weight:600; font-size:16px"> Karla Madison</p>
+       <p>Quench Ville, No 8 Transekulu Road, Enugu.</p>
+       
+       <p style="font-size:12px"> +234835674509</p>
+      <div class="edit">
+      <h4 style="margin-right:50%">Edit</h4>
+      <h4 style="color:red"> Delete</h4>
+       </div>
+    </div>
+  
+   <div class="new-add">
+       <p class="new">+  Add New Address</p>
+     </div>
+      
+    </article
+    </main>
+    </section>
+  
+  <form>
+    <label class="head" style="line-height:20px; color:black"><strong>Edit Address</strong></label>
+    <hr style="width:inherit">
+  <label for="name">Name</label><br>
+  <input type="text" id="name" placeholder="e.g. John Doe" name="name"><br>
+  <label for="number">Mobile Number</label><br>
+  <input type="text" id="number" placeholder="+234 Enter mobile number" name="number"><br>
+  <label for="city">City</label><br>
+  <input type="text" id="city" placeholder="e.g.Abuja" name="city"><br>
+  <label for="address">Address</label><br>
+  <input type="text" id="address" placeholder="e.g. No 23 Federal Housing Estate, Lugbe " name="address"><br>
+    <button type="submit">Edit Address</button>
+  </form>
+  
+  
+  <div id="mySidenav" class="sidenav">
+  
+  <a href="https://jsbin.com/dufuwaq" id="left"><i class='fas fa-angle-left' style='font-size:48px;color:white; margin-left:50%;margin-top: 30%'></i></a>
+</div>  
+        
+    
+<div id="mySidenavb" class="sidenavb">
+  
+  <a href="https://jsbin.com/bucewob" id="right"><i class='fas fa-angle-right' style='font-size:48px;color:white; margin-left:30%;margin-top: 30%'></i></a>
+</div>  
+  
+  
+</body>
+</html>
